@@ -1,8 +1,8 @@
 plugins {
-  kotlin("jvm") version "1.3.72"
-  kotlin("plugin.spring") version "1.3.72"
-  id("org.springframework.boot") version "2.3.3.RELEASE"
-  id("io.spring.dependency-management") version "1.0.10.RELEASE"
+  kotlin("jvm") version "1.5.31"
+  kotlin("plugin.spring") version "1.5.31"
+  id("org.springframework.boot") version "2.5.5"
+  id("io.spring.dependency-management") version "1.0.11.RELEASE"
   id("org.jmailen.kotlinter") version "3.0.2"
   jacoco
 }
@@ -14,7 +14,7 @@ repositories {
   mavenCentral()
 }
 
-val javaVersion = "13"
+val javaVersion = "11"
 tasks {
   compileKotlin {
     kotlinOptions.jvmTarget = javaVersion
