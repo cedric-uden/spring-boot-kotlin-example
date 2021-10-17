@@ -4,6 +4,14 @@ example of SpringBoot in Kotlin
 
 Cloned the template from https://github.com/otajisan/spring-boot-kotlin-example
 
+== Setup project
+
+IntelliJ Settings:
+
+Head to `Project Structure`
+
+- `Project Settings` > `Project` > `Project SDK` > `13`
+
 == Health Check
 
 [source,bash]
