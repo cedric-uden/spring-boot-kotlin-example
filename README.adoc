@@ -1,9 +1,10 @@
+= spring-boot-kotlin-example
+
+example of SpringBoot in Kotlin
+
 Cloned the template from https://github.com/otajisan/spring-boot-kotlin-example
 
-= spring-boot-kotlin-example
-example of SpringBoot by Kotlin
-
-= Health Check
+== Health Check
 
 [source,bash]
 ----
@@ -11,7 +12,7 @@ example of SpringBoot by Kotlin
 {"status":"UP"}
 ----
 
-= Prometheus
+== Prometheus
 
 [source,bash]
 ----
@@ -29,5 +30,5 @@ jvm_threads_states_threads{state="new",} 0.0
 ...
 ----
 
-= Open API
+== Open API
 http://localhost:8080/v3/api-docs
