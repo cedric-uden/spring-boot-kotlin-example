@@ -38,5 +38,6 @@ jvm_threads_states_threads{state="new",} 0.0
 ...
 ----
 
-== Open API
-http://localhost:8080/v3/api-docs
+== Swagger
+
+http://localhost:8080/swagger-ui.html[API Documentation]
